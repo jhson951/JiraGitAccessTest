@@ -24,5 +24,10 @@ namespace JiraGitAccessTest
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("시작버튼 테스트");
+        }
     }
 }
